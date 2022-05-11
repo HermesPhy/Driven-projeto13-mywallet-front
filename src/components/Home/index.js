@@ -3,9 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useContext, useEffect, useState } from 'react';
 import { UserContext } from '../../contexts/UserContext';
 import { $Home, Balance, Wallet } from './style';
-import deslogar from '../../assets/deslogar.svg';
-import circlePositive from '../../assets/circlePositive.svg';
-import circleNegative from '../../assets/circleNegative.svg';
+import deslogar from '../../assets/deslogar.png';
+import adicionar from '../../assets/adicionar.png';
+import remover from '../../assets/remover.png';
 import { Item } from './Item';
 
 export const Home = () => {
@@ -89,11 +89,11 @@ export const Home = () => {
 			</main>
 			<footer>
 				<Link to={'/item/entrada'} >
-					<img src={circlePositive} alt='circlePositive' />
+					<img src={adicionar} alt='adicionar' />
 					<span>Nova entrada</span>
 				</Link>
 				<Link to={'/item/saída'} >
-					<img src={circleNegative} alt='circleNegative' />
+					<img src={remover} alt='remover' />
 					<span>Nova saída</span>
 				</Link>
 			</footer>
