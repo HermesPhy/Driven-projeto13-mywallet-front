@@ -95,6 +95,6 @@ export const SignUp = () => {
         <Link to = "/">
             <span>Já tem uma conta? Entre agora!</span>
         </Link>
-    </$SignUp>
-);
+        </$SignUp>
+    );
 }

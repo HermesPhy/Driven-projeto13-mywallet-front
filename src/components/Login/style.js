@@ -1,16 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const $SignUp = styled.div`
+export const $Login = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-margin-top: 95px;
+margin-top: 159px;
 h1 {
     font-family: "Saira Stencil One";
     font-size: 32px;
     color: #FFFFFF;
-    margin-bottom: 24px;
+    margin-top: 24px;
 }
 input {
     width: 100vw;
@@ -46,6 +46,18 @@ form {
 span {
     font-weight: 700;
     font-size: 15px;
+    color: #FFFFFF;
+}
+`;
+
+export const AutoLogin = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 80vh;
+h1 {
+    font-size: 23px;
     color: #FFFFFF;
 }
 `
